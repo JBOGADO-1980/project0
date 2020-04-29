@@ -1,0 +1,33 @@
+$color1: darkblue;
+$color2: green;
+$color3: gray;
+$color4: lightgray;
+$color5: brown;
+$color6: yellow;
+$color7: black;
+$width1: 20px;
+$size1: 48px;
+$size2: 40px;
+$size3: 36px;
+$size4: 24px;
+
+h1 {color:$color1;
+    text-align:center;
+    font-size: $size1;;}
+h2 {color:$color2;
+    text-align:center;
+    font-size: $size2;;}
+h3 {color:$color3;
+    text-align:center;
+    font-size: $size3;;}
+ol {text-align:center;
+    font-family: Arial, sans-serif;
+    font-size: $size4;;}
+li {text-align:center;
+    font-family: Arial, sans-serif;
+    font-size: $size4;;}
+p  {color:$color7
+    ;text-align:left;
+    font-size: $width1;;}
+p::selection{color: $color5;
+            background-color: $color6;}

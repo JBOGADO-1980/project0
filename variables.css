@@ -1,0 +1,35 @@
+h1 {
+  color: darkblue;
+  text-align: center;
+  font-size: 48px; }
+
+h2 {
+  color: green;
+  text-align: center;
+  font-size: 40px; }
+
+h3 {
+  color: gray;
+  text-align: center;
+  font-size: 36px; }
+
+ol {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 24px; }
+
+li {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 24px; }
+
+p {
+  color: black;
+  text-align: left;
+  font-size: 20px; }
+
+p::selection {
+  color: brown;
+  background-color: yellow; }
+
+/*# sourceMappingURL=variables.css.map */
